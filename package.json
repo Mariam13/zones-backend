@@ -1,0 +1,20 @@
+{
+  "name": "zones-backend",
+  "version": "1.0.0",
+  "author": "Mariam Martirosyan",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest --no-cache --detectOpenHandles"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "fast-csv": "^5.0.1",
+    "http-errors": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
